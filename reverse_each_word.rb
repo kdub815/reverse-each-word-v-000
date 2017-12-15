@@ -8,7 +8,7 @@ def reverse_each_word(sentence)
     word.reverse!
   end
   #put reversed words into new array
-  new_array << 
+  reversed_array <<
   #convert new array back to a string
-  new_array.join
+  reversed_array.join
 end
